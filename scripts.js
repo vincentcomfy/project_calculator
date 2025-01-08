@@ -26,7 +26,6 @@ buttons.forEach(button => {
       }
       displayUpdate(num1 + (operator ? operator : '') + num2); 
     } else if (buttonValue === ".") { 
-      // Handle decimal point (add logic to prevent multiple decimals)
       if (!operator && !num1.includes(".")) { 
         num1 += buttonValue;
       } else if (operator && !num2.includes(".")) {
