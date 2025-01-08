@@ -19,18 +19,23 @@ body {
 
 .calculatorScreen {
     display: flex;
+    justify-content: flex-end;
+    align-items: center;
     margin-top: 10px;
     width: 475px;
-    height: 65px;
+    height: 50px;
     background-color: beige;
     border-radius: 8px;
-}
+    font-size: 24px; 
+    font-family: 'monospace'; 
+    padding: 0 10px; 
+  }
 
 
 .calculatorButtons {
-    width: 450px; /* Maintain a consistent width */
+    width: 450px; 
     height: 580px; 
-    margin: 0; /* Remove extra margin */
+    margin: 0; 
     display: flex;
     flex-direction: column; 
     justify-content: space-between; 
@@ -47,6 +52,6 @@ body {
     flex: 0 0 23.5%; 
     margin: 5px; 
     border-radius: 5px;
-    padding: 10px; /* Increase button height */ 
-    font-size: 18px; /* Increase font size for better readability */
+    padding: 10px; 
+    font-size: 18px; 
 }
